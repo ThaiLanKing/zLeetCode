@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAC36E1C22F2F97500EA84D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC36E1B22F2F97500EA84D0 /* AppDelegate.m */; };
+		DAC36E1F22F2F97500EA84D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC36E1E22F2F97500EA84D0 /* ViewController.m */; };
+		DAC36E2222F2F97500EA84D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC36E2022F2F97500EA84D0 /* Main.storyboard */; };
+		DAC36E2422F2F97600EA84D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC36E2322F2F97600EA84D0 /* Assets.xcassets */; };
+		DAC36E2722F2F97600EA84D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC36E2522F2F97600EA84D0 /* LaunchScreen.storyboard */; };
+		DAC36E2A22F2F97600EA84D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC36E2922F2F97600EA84D0 /* main.m */; };
+		DAC36E3422F2F97600EA84D0 /* zLeetCodeSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC36E3322F2F97600EA84D0 /* zLeetCodeSampleTests.m */; };
+		DAC36E3F22F2F97600EA84D0 /* zLeetCodeSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC36E3E22F2F97600EA84D0 /* zLeetCodeSampleUITests.m */; };
+		DAC36E5522F4326F00EA84D0 /* zLeetCodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC36E5422F4326F00EA84D0 /* zLeetCodeManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAC36E3022F2F97600EA84D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAC36E0F22F2F97500EA84D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAC36E1622F2F97500EA84D0;
+			remoteInfo = zLeetCodeSample;
+		};
+		DAC36E3B22F2F97600EA84D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAC36E0F22F2F97500EA84D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAC36E1622F2F97500EA84D0;
+			remoteInfo = zLeetCodeSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAC36E1722F2F97500EA84D0 /* zLeetCodeSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zLeetCodeSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC36E1A22F2F97500EA84D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAC36E1B22F2F97500EA84D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAC36E1D22F2F97500EA84D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAC36E1E22F2F97500EA84D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAC36E2122F2F97500EA84D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAC36E2322F2F97600EA84D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAC36E2622F2F97600EA84D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAC36E2822F2F97600EA84D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC36E2922F2F97600EA84D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAC36E2F22F2F97600EA84D0 /* zLeetCodeSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zLeetCodeSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC36E3322F2F97600EA84D0 /* zLeetCodeSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zLeetCodeSampleTests.m; sourceTree = "<group>"; };
+		DAC36E3522F2F97600EA84D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC36E3A22F2F97600EA84D0 /* zLeetCodeSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zLeetCodeSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC36E3E22F2F97600EA84D0 /* zLeetCodeSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zLeetCodeSampleUITests.m; sourceTree = "<group>"; };
+		DAC36E4022F2F97600EA84D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC36E5322F4326F00EA84D0 /* zLeetCodeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zLeetCodeManager.h; sourceTree = "<group>"; };
+		DAC36E5422F4326F00EA84D0 /* zLeetCodeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zLeetCodeManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAC36E1422F2F97500EA84D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC36E2C22F2F97600EA84D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC36E3722F2F97600EA84D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAC36E0E22F2F97500EA84D0 = {
+			isa = PBXGroup;
+			children = (
+				DAC36E5222F431FC00EA84D0 /* LeetCodeExercise */,
+				DAC36E1922F2F97500EA84D0 /* zLeetCodeSample */,
+				DAC36E3222F2F97600EA84D0 /* zLeetCodeSampleTests */,
+				DAC36E3D22F2F97600EA84D0 /* zLeetCodeSampleUITests */,
+				DAC36E1822F2F97500EA84D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAC36E1822F2F97500EA84D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAC36E1722F2F97500EA84D0 /* zLeetCodeSample.app */,
+				DAC36E2F22F2F97600EA84D0 /* zLeetCodeSampleTests.xctest */,
+				DAC36E3A22F2F97600EA84D0 /* zLeetCodeSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAC36E1922F2F97500EA84D0 /* zLeetCodeSample */ = {
+			isa = PBXGroup;
+			children = (
+				DAC36E1A22F2F97500EA84D0 /* AppDelegate.h */,
+				DAC36E1B22F2F97500EA84D0 /* AppDelegate.m */,
+				DAC36E1D22F2F97500EA84D0 /* ViewController.h */,
+				DAC36E1E22F2F97500EA84D0 /* ViewController.m */,
+				DAC36E2022F2F97500EA84D0 /* Main.storyboard */,
+				DAC36E2322F2F97600EA84D0 /* Assets.xcassets */,
+				DAC36E2522F2F97600EA84D0 /* LaunchScreen.storyboard */,
+				DAC36E2822F2F97600EA84D0 /* Info.plist */,
+				DAC36E2922F2F97600EA84D0 /* main.m */,
+			);
+			path = zLeetCodeSample;
+			sourceTree = "<group>";
+		};
+		DAC36E3222F2F97600EA84D0 /* zLeetCodeSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAC36E3322F2F97600EA84D0 /* zLeetCodeSampleTests.m */,
+				DAC36E3522F2F97600EA84D0 /* Info.plist */,
+			);
+			path = zLeetCodeSampleTests;
+			sourceTree = "<group>";
+		};
+		DAC36E3D22F2F97600EA84D0 /* zLeetCodeSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAC36E3E22F2F97600EA84D0 /* zLeetCodeSampleUITests.m */,
+				DAC36E4022F2F97600EA84D0 /* Info.plist */,
+			);
+			path = zLeetCodeSampleUITests;
+			sourceTree = "<group>";
+		};
+		DAC36E5222F431FC00EA84D0 /* LeetCodeExercise */ = {
+			isa = PBXGroup;
+			children = (
+				DAC36E5322F4326F00EA84D0 /* zLeetCodeManager.h */,
+				DAC36E5422F4326F00EA84D0 /* zLeetCodeManager.m */,
+			);
+			path = LeetCodeExercise;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAC36E1622F2F97500EA84D0 /* zLeetCodeSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC36E4322F2F97600EA84D0 /* Build configuration list for PBXNativeTarget "zLeetCodeSample" */;
+			buildPhases = (
+				DAC36E1322F2F97500EA84D0 /* Sources */,
+				DAC36E1422F2F97500EA84D0 /* Frameworks */,
+				DAC36E1522F2F97500EA84D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zLeetCodeSample;
+			productName = zLeetCodeSample;
+			productReference = DAC36E1722F2F97500EA84D0 /* zLeetCodeSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAC36E2E22F2F97600EA84D0 /* zLeetCodeSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC36E4622F2F97600EA84D0 /* Build configuration list for PBXNativeTarget "zLeetCodeSampleTests" */;
+			buildPhases = (
+				DAC36E2B22F2F97600EA84D0 /* Sources */,
+				DAC36E2C22F2F97600EA84D0 /* Frameworks */,
+				DAC36E2D22F2F97600EA84D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAC36E3122F2F97600EA84D0 /* PBXTargetDependency */,
+			);
+			name = zLeetCodeSampleTests;
+			productName = zLeetCodeSampleTests;
+			productReference = DAC36E2F22F2F97600EA84D0 /* zLeetCodeSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAC36E3922F2F97600EA84D0 /* zLeetCodeSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC36E4922F2F97600EA84D0 /* Build configuration list for PBXNativeTarget "zLeetCodeSampleUITests" */;
+			buildPhases = (
+				DAC36E3622F2F97600EA84D0 /* Sources */,
+				DAC36E3722F2F97600EA84D0 /* Frameworks */,
+				DAC36E3822F2F97600EA84D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAC36E3C22F2F97600EA84D0 /* PBXTargetDependency */,
+			);
+			name = zLeetCodeSampleUITests;
+			productName = zLeetCodeSampleUITests;
+			productReference = DAC36E3A22F2F97600EA84D0 /* zLeetCodeSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAC36E0F22F2F97500EA84D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = ZYH;
+				TargetAttributes = {
+					DAC36E1622F2F97500EA84D0 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					DAC36E2E22F2F97600EA84D0 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = DAC36E1622F2F97500EA84D0;
+					};
+					DAC36E3922F2F97600EA84D0 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = DAC36E1622F2F97500EA84D0;
+					};
+				};
+			};
+			buildConfigurationList = DAC36E1222F2F97500EA84D0 /* Build configuration list for PBXProject "zLeetCodeSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAC36E0E22F2F97500EA84D0;
+			productRefGroup = DAC36E1822F2F97500EA84D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAC36E1622F2F97500EA84D0 /* zLeetCodeSample */,
+				DAC36E2E22F2F97600EA84D0 /* zLeetCodeSampleTests */,
+				DAC36E3922F2F97600EA84D0 /* zLeetCodeSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAC36E1522F2F97500EA84D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC36E2722F2F97600EA84D0 /* LaunchScreen.storyboard in Resources */,
+				DAC36E2422F2F97600EA84D0 /* Assets.xcassets in Resources */,
+				DAC36E2222F2F97500EA84D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC36E2D22F2F97600EA84D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC36E3822F2F97600EA84D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAC36E1322F2F97500EA84D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC36E1F22F2F97500EA84D0 /* ViewController.m in Sources */,
+				DAC36E2A22F2F97600EA84D0 /* main.m in Sources */,
+				DAC36E1C22F2F97500EA84D0 /* AppDelegate.m in Sources */,
+				DAC36E5522F4326F00EA84D0 /* zLeetCodeManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC36E2B22F2F97600EA84D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC36E3422F2F97600EA84D0 /* zLeetCodeSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC36E3622F2F97600EA84D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC36E3F22F2F97600EA84D0 /* zLeetCodeSampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAC36E3122F2F97600EA84D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAC36E1622F2F97500EA84D0 /* zLeetCodeSample */;
+			targetProxy = DAC36E3022F2F97600EA84D0 /* PBXContainerItemProxy */;
+		};
+		DAC36E3C22F2F97600EA84D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAC36E1622F2F97500EA84D0 /* zLeetCodeSample */;
+			targetProxy = DAC36E3B22F2F97600EA84D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAC36E2022F2F97500EA84D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAC36E2122F2F97500EA84D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAC36E2522F2F97600EA84D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAC36E2622F2F97600EA84D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAC36E4122F2F97600EA84D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DAC36E4222F2F97600EA84D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAC36E4422F2F97600EA84D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zLeetCodeSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JamBo.zLeetCodeSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAC36E4522F2F97600EA84D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zLeetCodeSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JamBo.zLeetCodeSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAC36E4722F2F97600EA84D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zLeetCodeSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JamBo.zLeetCodeSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zLeetCodeSample.app/zLeetCodeSample";
+			};
+			name = Debug;
+		};
+		DAC36E4822F2F97600EA84D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zLeetCodeSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JamBo.zLeetCodeSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zLeetCodeSample.app/zLeetCodeSample";
+			};
+			name = Release;
+		};
+		DAC36E4A22F2F97600EA84D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zLeetCodeSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JamBo.zLeetCodeSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zLeetCodeSample;
+			};
+			name = Debug;
+		};
+		DAC36E4B22F2F97600EA84D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = zLeetCodeSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JamBo.zLeetCodeSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zLeetCodeSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAC36E1222F2F97500EA84D0 /* Build configuration list for PBXProject "zLeetCodeSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC36E4122F2F97600EA84D0 /* Debug */,
+				DAC36E4222F2F97600EA84D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC36E4322F2F97600EA84D0 /* Build configuration list for PBXNativeTarget "zLeetCodeSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC36E4422F2F97600EA84D0 /* Debug */,
+				DAC36E4522F2F97600EA84D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC36E4622F2F97600EA84D0 /* Build configuration list for PBXNativeTarget "zLeetCodeSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC36E4722F2F97600EA84D0 /* Debug */,
+				DAC36E4822F2F97600EA84D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC36E4922F2F97600EA84D0 /* Build configuration list for PBXNativeTarget "zLeetCodeSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC36E4A22F2F97600EA84D0 /* Debug */,
+				DAC36E4B22F2F97600EA84D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAC36E0F22F2F97500EA84D0 /* Project object */;
+}
