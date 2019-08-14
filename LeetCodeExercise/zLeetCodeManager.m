@@ -10,6 +10,8 @@
 
 @implementation zLeetCodeManager
 
+#pragma mark - 1. 两数之和
+
 + (NSArray *)twoSum:(NSArray<NSNumber *> *)nums
              target:(NSInteger)target
 {
@@ -40,6 +42,8 @@
     return nil;
 }
 
+#pragma mark - 3. 无重复字符的最长子串
+
 + (NSInteger)lengthOfLongestSubstring:(NSString *)srcString
 {
     NSInteger maxLength = 0;
@@ -64,7 +68,7 @@
     return maxLength;
 }
 
-#pragma mark - 最大回文字串
+#pragma mark - 5. 最长回文子串
 
 + (NSString *)longestPalindrome:(NSString *)srcString
 {
@@ -141,7 +145,7 @@
     return resultStr;
 }
 
-#pragma mark -
+#pragma mark - 6. Z 字形变换
 
 + (NSString *)convertedString:(NSString *)srcString toNumRows:(NSInteger)numRows
 {
@@ -223,6 +227,8 @@
 //    }
 //}
 
+#pragma mark - 11. 盛最多水的容器
+
 //+ (NSInteger)maxArea:(NSArray *)heights
 //{
 //    NSInteger maxArea = 0;
@@ -283,7 +289,7 @@
     return maxArea;
 }
 
-#pragma mark -
+#pragma mark - 12. 整数转罗马数字
 
 + (NSString *)intToRoman:(NSInteger)value
 {
@@ -322,6 +328,8 @@
     }];
     return result;
 }
+
+#pragma mark - 13. 罗马数字转整数
 
 //+ (NSInteger)romanToInt:(NSString *)romanValue
 //{
@@ -385,7 +393,7 @@
     return result;
 }
 
-#pragma mark -
+#pragma mark - 14. 最长公共前缀
 
 + (NSString *)longestCommonPrefix:(NSArray<NSString *> *)strings
 {
@@ -415,5 +423,51 @@
     }
     return commonPrefix;
 }
+
+#pragma mark - 17. 电话号码的字母组合
+
++ (NSArray *)letterCombinations:(NSString *)digits
+{
+    NSDictionary *digitReflect = @{@"2" : @[@"a", @"b", @"c"],
+                                   @"3" : @[@"d", @"e", @"f"],
+                                   @"4" : @[@"g", @"h", @"i"],
+                                   @"5" : @[@"j", @"k", @"l"],
+                                   @"6" : @[@"m", @"n", @"o"],
+                                   @"7" : @[@"p", @"q", @"r", @"s"],
+                                   @"8" : @[@"t", @"u", @"v"],
+                                   @"9" : @[@"w", @"x", @"y", @"z"],
+                                   };
+    NSArray *result = nil;
+    NSInteger digitLength = digits.length;
+    for (int i = 0; i < digitLength; ++i) {
+        NSString *first = [digits substringWithRange:NSMakeRange(i, 1)];
+        NSArray<NSString *> *alphabets = digitReflect[first];
+        result = [[self class] combinationsWithArr1:result arr2:alphabets];
+    }
+    return result;
+}
+
++ (NSArray *)combinationsWithArr1:(NSArray<NSString *> *)arr1
+                             arr2:(NSArray<NSString *> *)arr2
+{
+    if (arr1.count == 0) {
+        return arr2;
+    }
+    
+    if (arr2.count == 0) {
+        return arr1;
+    }
+    
+    NSMutableArray *result = [NSMutableArray arrayWithCapacity:0];
+    for (NSString *str1 in arr1) {
+        for (NSString *str2 in arr2) {
+            NSString *resultStr = [str1 stringByAppendingString:str2];
+            [result addObject:resultStr];
+        }
+    }
+    return result;
+}
+
+#pragma mark -
 
 @end

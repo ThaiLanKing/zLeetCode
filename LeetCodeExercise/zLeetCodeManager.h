@@ -29,6 +29,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSString *)longestCommonPrefix:(NSArray<NSString *> *)strings;
 
++ (NSArray *)letterCombinations:(NSString *)digits;
+
 @end
 
 NS_ASSUME_NONNULL_END

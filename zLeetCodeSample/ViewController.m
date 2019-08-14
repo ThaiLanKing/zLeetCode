@@ -83,22 +83,33 @@
 //        }
 //    }
     
+//    {
+//        NSArray *testStrings = @[@"flower", @"flow", @"flight"];
+//        NSString *result = [zLeetCodeManager longestCommonPrefix:testStrings];
+//        NSLog(@"longestCommonPrefix = %@", result);
+//
+//        testStrings = @[@"dog", @"racecar", @"car"];
+//        result = [zLeetCodeManager longestCommonPrefix:testStrings];
+//        NSLog(@"longestCommonPrefix = %@", result);
+//
+//        testStrings = @[@"fly", @"flying", @"flySky"];
+//        result = [zLeetCodeManager longestCommonPrefix:testStrings];
+//        NSLog(@"longestCommonPrefix = %@", result);
+//
+//        testStrings = @[@"", @"flying", @"flySky"];
+//        result = [zLeetCodeManager longestCommonPrefix:testStrings];
+//        NSLog(@"longestCommonPrefix = %@", result);
+//    }
+    
     {
-        NSArray *testStrings = @[@"flower", @"flow", @"flight"];
-        NSString *result = [zLeetCodeManager longestCommonPrefix:testStrings];
-        NSLog(@"longestCommonPrefix = %@", result);
+        NSArray *result = [zLeetCodeManager letterCombinations:@"789"];
+        NSLog(@"result = %@", result);
         
-        testStrings = @[@"dog", @"racecar", @"car"];
-        result = [zLeetCodeManager longestCommonPrefix:testStrings];
-        NSLog(@"longestCommonPrefix = %@", result);
+        result = [zLeetCodeManager letterCombinations:@"78"];
+        NSLog(@"result = %@", result);
         
-        testStrings = @[@"fly", @"flying", @"flySky"];
-        result = [zLeetCodeManager longestCommonPrefix:testStrings];
-        NSLog(@"longestCommonPrefix = %@", result);
-        
-        testStrings = @[@"", @"flying", @"flySky"];
-        result = [zLeetCodeManager longestCommonPrefix:testStrings];
-        NSLog(@"longestCommonPrefix = %@", result);
+        result = [zLeetCodeManager letterCombinations:@"9"];
+        NSLog(@"result = %@", result);
     }
 }
 
